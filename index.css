@@ -1,0 +1,104 @@
+body {
+	margin: 0px
+}
+
+.navbar {
+	display:flex;
+	background-color: PaleTurquoise;
+	justify-content: center;
+	align-items:center;
+	height: 70px;
+	margin-bottom: 100px;
+	gap: 10px;
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	transition-duration: 0.4s;
+	padding: 22px;
+	justify-content: center;
+	align-items:center;
+	
+}
+.navbar a:hover{
+	box-shadow: inset 0px -2px 0px black;
+	background-color: MediumTurquoise;
+}
+.navbar ion-icon{
+	font-size: 22px;
+	margin-bottom: -4px;
+	color: navy;
+	margin-right: 4px;
+}
+
+.container {
+	display:flex;
+	flex-direction:row;
+	width: 100%;
+}
+
+.navEsquerda {
+	display: flex;
+	flex: 20%;
+	background-color: PaleTurquoise;
+	justify-content: center;
+	flex-direction: column;
+}
+.navEsquerda p{
+	display:flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
+.principal {
+	display: flex;
+	flex: 80%;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+
+}
+.principal p{
+	margin:0px;
+	display:flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.principal a{
+	background-color: PaleTurquoise;
+	display:flex;
+	justify-content: center;
+	color: black;
+	width: 100px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	transition-duration: 0.4s;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.principal a:hover{
+	background-color: MediumTurquoise;
+	cursor: pointer;
+}
+
+h1.titulos {
+	display:flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+
+h1.titulos2 {
+	display:flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+}
