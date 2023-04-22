@@ -195,3 +195,45 @@ h1.titulos2 {
 }
 
 
+.footer {
+	margin-top:100px;
+	display:flex;
+	background-color: 091010;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	gap: 15px;
+	position: absolute;
+	z-index:2;
+}
+.footer p{
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	transition-duration: 0.2s;
+	color: white;
+	text-align: center;
+}
+.footer a{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	transition-duration: 0.2s;
+	color: lightcyan;
+	text-align: center;
+	background-color: 1A2E2E;
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+.footer a:hover{
+	cursor:pointer;
+	background-color:lightcyan;
+	color:black;
+}
+.footer ion-icon{
+	font-size: 40px;
+	align-items: center;
+}
