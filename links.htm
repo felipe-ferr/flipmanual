@@ -30,7 +30,7 @@
 
 <div class="container">
   <div class="navEsquerda">
-  <div class="sumario">
+  <div id="mostrar"class="sumario">
   <h1 class="titulos2">Sumário</h1>
   <a href="#ionicon">Ionicons</a>
   <a href="#googleicons">Google Icons</a>
@@ -231,7 +231,16 @@
 
 
 
-
+<script>
+function myFunction() {
+  var x = document.getElementById("mostrar");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
