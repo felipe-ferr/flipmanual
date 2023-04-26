@@ -159,7 +159,7 @@ a{
 .sumario {
 	display: flex;
 	width: 18%;
-	background-color: PaleTurquoise;
+	background-color: red;
 	align-items: center;
 	flex-direction: column;
 	height: 100%;
@@ -424,10 +424,9 @@ h1.titulosumario {
 
 .quadrado2 {
 	display:flex;
+	background-color: PaleTurquoise
 	}
-.quadrado2 {
-	display:flex;
-}
+
 
 
 
