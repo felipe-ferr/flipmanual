@@ -158,25 +158,41 @@ a{
 
 .sumario {
 	display: flex;
-	width: 18%;
-	background-color: red;
+	width: 20%;
+	background-color: PaleTurquoise;
 	align-items: center;
 	flex-direction: column;
 	height: 100%;
 	position: fixed;
 	overflow: scroll;
-	gap: 10px;
+	gap: 15px;
 	z-index: 1;
+}
+
+.sumariocont{
+	display:flex;
+	height: 50px;
+	background-color: LightCyan;
+	align-items: center;
+	justify-content:center;
+	border-bottom: 2px solid black;
+	width: 100%;
+	
+
 }
 
 .sumario a{
 	display:flex;
-	text-align: left;
+	text-align: center;
+	align-items: center;
+	justify-content:center;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 	transition-duration: 0.2s;
 	color: black;
+	padding: 20px;
 	padding:0;
+	width: 100%;
 }
 .sumario a:hover{
 	color: navy;
@@ -390,7 +406,7 @@ p{
 
 .sumario {
 	display: none;
-	width: 70%;
+	width: 50%;
 	background-color: PaleTurquoise;
 	align-items: center;
     justify-content: center;
@@ -401,7 +417,7 @@ p{
 }
 
 .sumario a{
-	margin-left:110px;
+	margin-left:90px;
 	display:flex;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
@@ -412,7 +428,7 @@ p{
 }
 
 h1.titulosumario {
-	margin-left:110px;
+	margin-left:90px;
 	display:flex;
 	justify-content: center;
 	font-family: 'Ubuntu', sans-serif;
@@ -424,8 +440,8 @@ h1.titulosumario {
 
 .quadrado2 {
 	display:flex;
-	background-color: PaleTurquoise
-	}
+	background-color: PaleTurquoise;
+}
 
 
 
