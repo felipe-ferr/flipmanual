@@ -119,15 +119,15 @@ a{
 	height: 100%;
 	position: fixed;
 	overflow: scroll;
-	gap: 40px;
+	gap: 10px;
 	z-index: 1;
 }
 
 .sumario a{
 	display:flex;
-	justify-content: left;
+	text-align: left;
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	transition-duration: 0.2s;
 	color: black;
 	padding:0;
@@ -278,7 +278,7 @@ h1.titulos2 {
 
 
 
-@media (max-width:600px){
+@media (max-width:900px){
 .sumario {
 	display:none;
 }
