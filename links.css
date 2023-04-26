@@ -278,7 +278,7 @@ h1.titulos2 {
 
 
 
-@media (max-width:800px){
+@media (max-width:600px){
 .sumario {
 	display:none;
 }
@@ -317,6 +317,17 @@ h1.titulos2 {
 	margin-right: 4px;
 }
 
+p{
+	font-size: 15px;
+}
+
+.direita{
+	display:none;
+}
+
+.quadrado {
+	display: none;
+}
 
 
 
