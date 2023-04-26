@@ -90,6 +90,7 @@ a{
 }
 .quadrado:hover {
 	transform: scale(1.1);
+	cursor:pointer;
 }
 
 .quadrado ion-icon{
@@ -112,6 +113,7 @@ a{
 }
 .quadrado2:hover {
 	transform: scale(1.1);
+	cursor:pointer;
 }
 
 .quadrado2 ion-icon{
@@ -275,6 +277,15 @@ h1.titulos2 {
 	color: black;
 	text-align: center;
 }
+h1.titulosumario {
+	display:flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	transition-duration: 0.2s;
+	color: black;
+	text-align: center;
+}
 
 .footer {
 	margin-top:100px;
@@ -323,9 +334,6 @@ h1.titulos2 {
 
 
 @media (max-width:900px){
-.sumario {
-	display:none;
-}
 
 .navbar {
 	display:flex;
@@ -375,14 +383,14 @@ p{
 
 .navEsquerda {
 	display:flex;
-	flex:50%;
+	flex:5%;
 	z-index: 1;
 	justify-content: flex-start;
 }
 
 .sumario {
-	display: flex;
-	width: 40%;
+	display: none;
+	width: 50%;
 	background-color: PaleTurquoise;
 	align-items: center;
     justify-content: center;
@@ -394,6 +402,7 @@ p{
 }
 
 .sumario a{
+	margin-left:110px;
 	display:flex;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
@@ -402,19 +411,26 @@ p{
 	color: black;
 	padding:0;
 }
-.sumario a:hover{
-	color: navy;
-	text-decoration: underline;
+
+h1.titulosumario {
+	margin-left:110px;
+	display:flex;
+	justify-content: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	transition-duration: 0.2s;
+	color: black;
+	text-align: center;
 }
 
-
-
-
-
-
-
-
-
+.quadrado2 {
+	display:flex;
+	background-color:red;
+	}
+.quadrado2 {
+	display:flex;
+	background-color:red;
+}
 
 
 

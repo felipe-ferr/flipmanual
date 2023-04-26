@@ -33,14 +33,18 @@
 
 <div class="container">
   <div class="navEsquerda">
+  
+  <div onclick="openNav();"class="quadrado2">
+  <a><ion-icon name="list-outline"></ion-icon></a>
+  </div>
  
   
   
   <div id="mostrar"class="sumario">
    <div class="quadrado2sumario">
-  <a style="margin-top:15px"onclick="copiartexto();"><ion-icon name="close-circle"></ion-icon></a>
+  <a style="margin-top:15px"onclick="closeNav();"><ion-icon name="close-circle"></ion-icon></a>
   </div>
-  <h1 class="titulos2">Sumário</h1>
+  <h1 class="titulosumario">Sumário</h1>
   <a href="#ionicon">Ionicons</a>
   <a href="#googleicons">Google Icons</a>
   <a href="#googlefonts">Google Fonts</a>
@@ -58,10 +62,6 @@
   </div>
 
 <div class="principal">
-
- <div class="quadrado2">
-  <a onclick="copiartexto();"><ion-icon name="list-outline"></ion-icon></a>
-  </div>
 
 <h1 class="titulos">Links úteis</h1>
 <p id="ionicon">Sites que vão facilitar a criação do seu site</p>
@@ -248,11 +248,19 @@
 <script>
 function copiartexto() {
   var x = document.getElementById("mostrar");
-  if (x.style.display === "flex") {
-    x.style.display = "none";
-  } else {
+  if (x.style.display === "none") {
     x.style.display = "flex";
+  } else {
+    x.style.display = "none";
   }
+}
+
+function openNav() {
+  document.getElementById("mostrar").style.display = "flex";
+}
+
+function closeNav() {
+  document.getElementById("mostrar").style.display = "none";
 }
 </script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
