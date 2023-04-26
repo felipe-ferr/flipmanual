@@ -390,7 +390,7 @@ p{
 
 .sumario {
 	display: none;
-	width: 50%;
+	width: 70%;
 	background-color: PaleTurquoise;
 	align-items: center;
     justify-content: center;
@@ -424,7 +424,6 @@ h1.titulosumario {
 
 .quadrado2 {
 	display:flex;
-	background-color:red;
 	}
 .quadrado2 {
 	display:flex;
