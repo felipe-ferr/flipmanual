@@ -33,7 +33,13 @@
 
 <div class="container">
   <div class="navEsquerda">
+ 
+  
+  
   <div id="mostrar"class="sumario">
+   <div class="quadrado2sumario">
+  <a style="margin-top:15px"onclick="copiartexto();"><ion-icon name="close-circle"></ion-icon></a>
+  </div>
   <h1 class="titulos2">Sumário</h1>
   <a href="#ionicon">Ionicons</a>
   <a href="#googleicons">Google Icons</a>
@@ -52,6 +58,10 @@
   </div>
 
 <div class="principal">
+
+ <div class="quadrado2">
+  <a onclick="copiartexto();"><ion-icon name="list-outline"></ion-icon></a>
+  </div>
 
 <h1 class="titulos">Links úteis</h1>
 <p id="ionicon">Sites que vão facilitar a criação do seu site</p>
@@ -238,10 +248,10 @@
 <script>
 function copiartexto() {
   var x = document.getElementById("mostrar");
-  if (x.style.display === "none") {
-    x.style.display = "flex";
-  } else {
+  if (x.style.display === "flex") {
     x.style.display = "none";
+  } else {
+    x.style.display = "flex";
   }
 }
 </script>
