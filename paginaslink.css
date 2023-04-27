@@ -37,6 +37,7 @@ a{
 	gap: 10px;
 	position:fixed;
 	top:0;
+	z-index: 10;
 	
 }
 .navbar a{
@@ -261,6 +262,69 @@ h1.titulos2 {
 	font-size: 40px;
 	align-items: center;
 }
+
+.alerta {
+	display: inline-block;
+	position: relative;
+}
+
+.alerta .alertatexto {
+	visibility: hidden;
+    width: 140px;
+    background-color: Grey;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 3;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.alerta .alertatexto::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+
+	
+}
+.alerta:hover .alertatexto {
+  visibility: visible;
+  opacity: 1;
+}
+
+.exemplo1 {
+	padding: 10px;
+	background: PaleTurquoise;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	gap: 15px;
+	border-radius: 15px;
+	
+}
+
+.exemplo1 ion-icon{
+	font-size: 40px;
+}
+	
+	
+
+
+
+
+
+
+
+
 
 
 

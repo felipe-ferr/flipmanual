@@ -46,25 +46,49 @@
 <h1 class="titulos">Como usar</h1>
 <p>Primeiramente, você deve implementar esse script no final de sua página para começar a usar os ícones.</p>
 
-<textarea readonly><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<textarea id="copiar"readonly><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></textarea>
+<div class="alerta">
+<a class="botao"onclick="copiartexto()" onmouseout="outFunc()">
+  <span class="alertatexto" id="alerta">Copiar</span>
+  Copiar
+  </a>
+</div>
 
-<p>Você pode encontrar este script na aba "Usage" junto com todas as instruções.</p>
-<a href="https://ionic.io/ionicons/usage"target="_blank"><img style="height:200px"src="imagem/links/ionicons/ionicon2.png"></a>
 
 <h1 class="titulos">Adicionando ícones no site</h1>
-<p>Após escolher algum ícone, como por exemplo uma seta para a esquerda, você verá um comando aparecer na parte inferior da tela:</p>
-<img src="imagem/links/ionicons/ionicon3.png">
-<p>Basta clicar para copiar o código</p>
-<p>Agora você deve colar o comando no lugar que deseja no site, por exemplo ao lado de um texto:</p>
+<p>Para usar algum ícone, basta clicar em um deles e copiar o código (basta clicar para copiar automaticamente) que aparecerá na tela, como por exemplo um ícone de home:</p>
+<img src="imagem/links/ionicons/ionicon2.png">
+<p>Agora cole o código em algum lugar do site.</p>
+<h1 class="titulos2">Exemplos:</h1>
 
-<img style="height:150px"src="imagem/links/ionicons/botao.png">
-<textarea style="height:80px"readonly><p>texto<ion-icon name="arrow-undo-outline"></ion-icon></p></textarea>
-<p>Para que o ícone fique do lado do texto, o ícone está posicionado dentro da tag de texto (p) e do lado da palavra "texto"</br>
-Se o ícone estivesse posicionado antes do texto, ela apareceria no lado esquerdo da palavra "texto"</p>
+<div class="exemplo1">
+<ion-icon name="add-circle-outline"></ion-icon>
+<ion-icon name="key-outline"></ion-icon>
+<ion-icon name="restaurant-outline"></ion-icon>
+<ion-icon name="flask-outline"></ion-icon>
+</div>
 
-<img style="height:150px"src="imagem/links/ionicons/botao3.png">
-<textarea style="height:80px"readonly><p><ion-icon name="arrow-undo-outline"></ion-icon>texto</p></textarea>
+<h1 class="titulos2">Estilizando os ícones com css</h1>
+<p>Os ícones são pequenos originalmente, mas é possível alterar seu tamanho com CSS. Abra a tag "ion-icon" e adicione o comando "font-size" para começar:</p>
+<img style="height:200px"src="imagem/links/ionicons/ionicon3.png">
+
+
+
+<p>Resultado:</p>
+<div class="exemplo1">
+<ion-icon style="font-size:15px"name="home-outline"></ion-icon>
+<ion-icon name="arrow-forward-outline"></ion-icon>
+<ion-icon name="home-outline"></ion-icon>
+</div>
+
+<h1 class="titulos2">Mudando a cor:</h1>
+<img style="height:200px"src="imagem/links/ionicons/ionicon4.png">
+
+<p>Resultado:</p>
+<div class="exemplo1">
+<ion-icon style="font-size:40px;color:red"name="home-outline"></ion-icon>
+</div>
 
 <h1 class="titulos">Mudando os estilos de ícone</h1>
 
@@ -101,6 +125,25 @@ Se o ícone estivesse posicionado antes do texto, ela apareceria no lado esquerd
 
 
 <script>
+
+function copiartexto() {
+  var copyText = document.getElementById("copiar");
+
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  navigator.clipboard.writeText(copyText.value);
+
+  var tooltip = document.getElementById("alerta");
+  tooltip.innerHTML = "Copiado " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("alerta");
+  tooltip.innerHTML = "Copiar";
+}
+
+
 function myFunction() {
   var x = document.getElementById("mostrar");
   if (x.style.display === "none") {
