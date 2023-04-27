@@ -315,6 +315,17 @@ h1.titulos2 {
 .exemplo1 ion-icon{
 	font-size: 40px;
 }
+
+.containerExemplos1 {
+	display:flex;
+	gap: 10px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height:auto;
+	padding: 10px;
+}
 	
 	
 
