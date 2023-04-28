@@ -145,7 +145,7 @@ a{
 
 .navEsquerda {
 	display: flex;
-	flex: 20%;
+	flex: 0%;
 	align-items: center;
 	flex-direction: column;
 }
@@ -158,7 +158,7 @@ a{
 
 .sumario {
 	display: flex;
-	width: 20%;
+	width: 0%;
 	background-color: PaleTurquoise;
 	align-items: center;
 	flex-direction: column;
@@ -200,7 +200,7 @@ a{
 
 .principal {
 	display: flex;
-	flex: 80%;
+	flex: 90%;
 	flex-direction: column;
 	align-items: center;
 	gap: 70px;
@@ -267,14 +267,15 @@ a{
 	display:flex;
 	width: 100%;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: row;
-	height: 400px;
+	height: auto;
 	gap: 50px;
 	
 }
 .linksPrincipal a{
-	background-color: white;
+	background-color: LightCyan;
 	padding: 30px;
 	text-decoration: none;
 	font-family: 'Ubuntu', sans-serif;
@@ -294,6 +295,7 @@ a{
 .linksPrincipal a:hover{
 	color:SteelBlue;
 	background-color: LightCyan;
+	transform: scale(1.03);
 }
 
 .linksPrincipal a:hover ion-icon.bulb{
@@ -305,13 +307,77 @@ a{
 }
 
 .linksPrincipal ion-icon{
-	font-size: 60px;
+	font-size: 50px;
 	transition-duration: 0.2s;
 }
 .linksPrincipal ion-icon.bulb{
-	font-size: 60px;
-	transition-duration: 0.2s;
+	font-size: 50px;
+	transition-duration: 0.3s;
 }
+
+.linksSites {
+	display:flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: auto;
+	gap: 50px;
+	
+}
+.linksSites img{
+	height: 200px;
+	width: 300px;
+}
+
+.petchoppfundo {
+	background-image: url("imagem/index/petchoppfundo.png");
+	background-size: 2500px;
+	background-position: left;
+	padding: 30px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	height: 200px;
+	color:Navy;
+	border-radius:0px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 4px solid DarkRed;
+	width: 350px;
+	transition-duration: 0.4s;
+}
+.petchoppfundo:hover{
+	transform: scale(1.05);
+}
+
+.smartflipfundo {
+	background-color: Black;
+	padding: 30px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	height: 200px;
+	color:Navy;
+	border-radius:0px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 4px solid Purple;
+	width: 350px;
+	transition-duration: 0.4s;
+}
+.smartflipfundo:hover{
+	transform: scale(1.05);
+}
+
+
+
+
 
 h1.titulos {
 	display:flex;
@@ -352,17 +418,15 @@ h1.titulosumario {
 }
 
 .footer {
-	margin-top:100px;
 	display:flex;
 	background-color: 091010;
 	align-items: center;
+	justify-content:center;
 	flex-direction: column;
 	width: 100%;
-	height: auto;
 	gap: 15px;
-	position: absolute;
 	z-index:3;
-	bottom: 0;
+	margin-top: 100px;
 }
 .footer p{
 	justify-content: center;
