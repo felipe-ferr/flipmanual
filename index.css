@@ -1,5 +1,7 @@
 body {
-	margin: 0px
+	margin: 0px;
+	background-color: F9FFFF;
+
 }
 a{
 	text-decoration: none;
@@ -19,7 +21,6 @@ a{
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: SteelBlue; 
-  border-radius: 15px;
 }
 
 /* Handle on hover */
@@ -29,7 +30,7 @@ a{
 
 .navbar {
 	display:flex;
-	background-color: midnightblue;
+	background-color: SteelBlue;
 	justify-content: center;
 	align-items:center;
 	height: 40px;
@@ -43,7 +44,7 @@ a{
 .navbar a{
 	color: white;
 	text-decoration: none;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	transition-duration: 0.4s;
 	padding: 8px;
@@ -185,7 +186,7 @@ a{
 	text-align: center;
 	align-items: center;
 	justify-content:flex-start;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	transition-duration: 0.2s;
 	color: black;
@@ -240,7 +241,7 @@ a{
 	color: black;
 	width: 100px;
 	text-decoration: none;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	transition-duration: 0.4s;
 	padding: 10px;
@@ -279,7 +280,7 @@ a{
 	background-color: LightCyan;
 	padding: 30px;
 	text-decoration: none;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 30px;
 	height: 100px;
 	color:Navy;
@@ -338,7 +339,7 @@ a{
 	background-position: left;
 	padding: 30px;
 	text-decoration: none;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 30px;
 	height: 200px;
 	color:Navy;
@@ -359,7 +360,7 @@ a{
     background-color: #160821;
 	padding: 30px;
 	text-decoration: none;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 30px;
 	height: 200px;
 	color:Navy;
@@ -403,7 +404,7 @@ a{
 	justify-content:center;
 	text-align: center;
 	transition-duration: 0.2s;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	color:Navy;
 	padding:13px;
@@ -422,7 +423,7 @@ a{
 h1.titulos {
 	display:flex;
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 50px;
 	margin:0px;
 	color:black;
@@ -441,7 +442,7 @@ h1.titulos {
 h1.titulos2 {
 	display:flex;
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 30px;
 	transition-duration: 0.2s;
 	color: black;
@@ -450,7 +451,7 @@ h1.titulos2 {
 h1.titulosumario {
 	display:flex;
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 30px;
 	transition-duration: 0.2s;
 	color: black;
@@ -519,7 +520,7 @@ h1.titulosumario {
 .navbar a{
 	color: white;
 	text-decoration: none;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	transition-duration: 0.4s;
 	padding: 8px;
@@ -573,7 +574,7 @@ p{
 	margin-left:90px;
 	display:flex;
 	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 15px;
 	transition-duration: 0.2s;
 	color: black;
@@ -584,7 +585,7 @@ h1.titulosumario {
 	margin-left:90px;
 	display:flex;
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 30px;
 	transition-duration: 0.2s;
 	color: black;
@@ -598,7 +599,7 @@ h1.titulosumario {
 h1.titulos {
 	display:flex;
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 45px;
 	margin:0px;
 	color:black;
