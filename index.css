@@ -154,7 +154,7 @@ a{
 .navEsquerda p{
 	display:flex;
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 }
 
@@ -201,21 +201,29 @@ a{
 	
 
 .principal {
+	background-color: white;
+	background-size: cover;
 	display: flex;
 	flex: 90%;
 	flex-direction: column;
 	align-items: center;
 	gap: 70px;
-	margin-top: 50px;
 
 }
 .principal p{
 	margin:0px;
 	display:flex;
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	text-align: center;
+}
+
+.containerLink {
+	background-color: rgba(127, 255, 212, 0.644);
+	box-sizing: border-box;
+    padding: 30px;
+	border-radius: 20px;
 }
 
 
@@ -258,7 +266,7 @@ a{
 	margin:0px;
 	display:flex;
 	justify-content: center;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	text-align: center;
 	width:80%;
@@ -471,7 +479,7 @@ h1.titulosumario {
 }
 .footer p{
 	justify-content: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	transition-duration: 0.2s;
 	color: white;
@@ -481,7 +489,7 @@ h1.titulosumario {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-size: 20px;
 	transition-duration: 0.2s;
 	color: lightcyan;
