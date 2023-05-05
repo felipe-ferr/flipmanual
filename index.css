@@ -222,7 +222,8 @@ a{
 .containerLink {
 	background-color: rgba(127, 255, 212, 0.644);
 	box-sizing: border-box;
-    padding: 30px;
+    padding: 25px;
+	width: 650px;
 	border-radius: 20px;
 }
 
@@ -515,14 +516,16 @@ h1.titulosumario {
 
 .navbar {
 	display:flex;
-	background-color: midnightblue;
+	background-color: SteelBlue;
 	justify-content: center;
 	align-items:center;
-	height: 40px;
 	width: 100%;
+	height:auto;
+	padding:25px;
 	gap: 0px;
 	position:fixed;
 	top:0;
+	flex-direction:column;
 	
 }
 .navbar a{
@@ -560,7 +563,7 @@ p{
 }
 
 .navEsquerda {
-	display:flex;
+	display:none;
 	flex:5%;
 	z-index: 1;
 	justify-content: flex-start;
@@ -611,6 +614,10 @@ h1.titulos {
 	font-size: 45px;
 	margin:0px;
 	color:black;
+}
+
+.linkContainer{
+	display:none;
 }
 
 
