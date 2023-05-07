@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Flip Manual</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="paginaslink.css">
+
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+rel="stylesheet">
+
+</head>
+   <body>
+   
+   <div class="navbar">
+   <a href="index.htm"><ion-icon name="home"></ion-icon>Home</a>
+   <a href="links.htm"><ion-icon name="link"></ion-icon>Links</a>
+   <a href="#"><ion-icon name="book"></ion-icon>Pesquisa</a>
+   <a href="#"><ion-icon class="bulbnav"name="bulb"></ion-icon>Dicas</a>
+   </div>
+   
+<div class="container">   
+
+   
+<div class="navEsquerda">
+</div>
+
+</div>
+
+<div class="footer">
+   <p>Por Felipe - 2023</p>
+   <a href="https://github.com/felipe-ferr"target="_blank"><ion-icon name="logo-github"></ion-icon>Perfil no GitHub</a>
+   <a style="margin-bottom:20px"href="https://github.com/felipe-ferr/flipmanual"target="_blank"><ion-icon name="logo-github"></ion-icon>Código fonte do site</a>
+   </div>
+   
+   
+   <script>
+   
+   function copiartexto() {
+     var copyText = document.getElementById("copiar");
+   
+     copyText.select();
+     copyText.setSelectionRange(0, 99999); // For mobile devices
+   
+     navigator.clipboard.writeText(copyText.value);
+   
+     var tooltip = document.getElementById("alerta");
+     tooltip.innerHTML = "Copiado " + copyText.value;
+   }
+   
+   function outFunc() {
+     var tooltip = document.getElementById("alerta");
+     tooltip.innerHTML = "Copiar";
+   }
+   
+   
+   function myFunction() {
+     var x = document.getElementById("mostrar");
+     if (x.style.display === "none") {
+       x.style.display = "flex";
+     } else {
+       x.style.display = "none";
+     }
+   }
+   </script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   </body>
+   </html>

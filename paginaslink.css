@@ -38,6 +38,7 @@ a{
 	position:fixed;
 	top:0;
 	z-index: 3;
+	box-shadow: 0px 4px 6px 0px rgba(196,189,189,0.75);
 	
 }
 .navbar a{
@@ -54,6 +55,12 @@ a{
 .navbar a:hover{
 	box-shadow: inset 0px -2px 0px PaleTurquoise;
 	background-color: DarkTurquoise;
+}
+.navbar ion-icon.bulbnav{
+	transition-duration: 0.3s;
+}
+.navbar a:hover ion-icon.bulbnav{
+	color:gold;
 }
 .navbar ion-icon{
 	font-size: 22px;
@@ -328,7 +335,7 @@ h1.titulos2 {
 }
 
 .container1 {
-	background-color: rgb(230, 253, 253);
+	background-color: lightcyan;
 	padding:35px;
 	display:flex;
 	align-items: center;
@@ -339,14 +346,14 @@ h1.titulos2 {
 }
 
 .container2 {
-	background-color: rgb(230, 253, 253);
+	background-color: lightcyan;
 	padding:35px;
 	display:flex;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
 	flex-direction:column;
-	border: 2px ridge rgb(185, 187, 189);
+	border: 1px solid black;
 	border-radius: 5px;
 
 }
@@ -365,6 +372,7 @@ h1.titulos2 {
 	gap: 10px;
 	flex-direction:column;
 	border-radius: 5px;
+	border: 1px solid black;
 
 }
 
@@ -373,13 +381,25 @@ h1.titulos2 {
 	padding:15px;
 	display:flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 10px;
-	flex-direction:column;
+	flex-direction:row;
 	border-left: 5px solid limegreen;
 	border-radius: 5px;
 	width: 400px;
+	
 
+}
+
+.contverde p{
+	display: flex;
+	justify-content: flex-start;
+	text-align: justify;
+
+}
+.contverde .material-icons{
+	color: green;
+	
 }
 
 .contred {
@@ -387,14 +407,53 @@ h1.titulos2 {
 	padding:15px;
 	display:flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 10px;
 	width: 400px;
-	flex-direction:column;
+	flex-direction:row;
 	border-left: 5px solid red;
 	border-radius: 5px;
 
 }
+.contred p{
+	display: flex;
+	justify-content: flex-start;
+	text-align: justify;
+
+
+}
+.contred .material-icons{
+	color: rgb(198, 3, 3);
+	
+}
+
+.contdica {
+	background-color: lightcyan;
+	padding:15px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	width: 400px;
+	flex-direction:row;
+	border-radius: 5px;
+	border-left: 5px solid rgb(233, 198, 1);
+
+}
+.contdica p{
+	display: flex;
+	justify-content: flex-start;
+	text-align: justify;
+
+
+}
+.contdica .material-icons{
+	color: black;
+
+	
+}
+
+
 
 ::selection{
 	color: lightcyan;

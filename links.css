@@ -18,6 +18,7 @@ a{
 	position:fixed;
 	top:0;
 	z-index: 3;
+	box-shadow: 0px 4px 6px 0px rgba(196,189,189,0.75);
 	
 }
 .navbar a{
@@ -34,6 +35,12 @@ a{
 .navbar a:hover{
 	box-shadow: inset 0px -2px 0px PaleTurquoise;
 	background-color: DarkTurquoise;
+}
+.navbar ion-icon.bulbnav{
+	transition-duration: 0.3s;
+}
+.navbar a:hover ion-icon.bulbnav{
+	color:gold;
 }
 .navbar ion-icon{
 	font-size: 22px;
@@ -86,7 +93,7 @@ a{
 	width: 60px;
 	position: fixed;
 	top: 50;
-	left: 70;
+	left: 15;
 	justify-content: center;
 	align-items: center;
 	border-radius: 15px;
