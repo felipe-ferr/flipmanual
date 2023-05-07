@@ -267,7 +267,7 @@ a{
 }
 
 .linkContainer a.botao:hover{
-	background-color: MediumTurquoise;
+	background-color: lightcyan;
 	cursor: pointer;
 }
 
@@ -633,6 +633,10 @@ h1.titulos {
     padding: 30px;
 	border-radius: 20px;
 	width: 80%;
+}
+
+body{
+	overflow-x:hidden;
 }
 
 

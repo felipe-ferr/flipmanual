@@ -5,27 +5,7 @@ a{
 	text-decoration: none;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
 
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: MediumTurquoise; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: SteelBlue; 
-  border-radius: 15px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: MidnightBlue; 
-}
 
 .navbar {
 	display:flex;
@@ -459,9 +439,249 @@ h1.titulos2 {
 	color: lightcyan;
 	background-color: steelblue;
 }
-	
-	
 
+@media (max-width:900px){
+
+	.navbar {
+			display:flex;
+			background-color: SteelBlue;
+			justify-content: center;
+			align-items:center;
+			height: auto;
+			gap: 10px;
+			flex-direction: column;
+			position:static;
+			top:0;
+			z-index: 3;
+			box-shadow: 0px 4px 6px 0px rgba(196,189,189,0.75);
+			
+		}
+	.navbar a{
+			display:flex;
+			color: white;
+			text-decoration: none;
+			font-family: 'Cabin', sans-serif;
+			font-size: 20px;
+			transition-duration: 0.4s;
+			padding: 8px;
+			width:100%;
+			justify-content: center;
+			align-items:center;
+			
+		}
+	.navbar a:hover{
+		box-shadow: inset 0px -2px 0px PaleTurquoise;
+		background-color: DarkTurquoise;
+	}
+	.navbar ion-icon{
+		font-size: 22px;
+		margin-bottom: -4px;
+		color: white;
+		margin-right: 4px;
+	}
+
+	p{
+		font-size: 5px;
+
+	}
+	
+	.direita{
+		display:none;
+	}
+	
+	.quadrado {
+		display: none;
+	}
+	
+	.navEsquerda {
+		display:flex;
+		flex:0%;
+		z-index: 1;
+	}
+	.exemplo1 {
+		padding: 10px;
+		background: PaleTurquoise;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		flex-direction:row;
+		flex-wrap: nowrap;
+		gap: 15px;
+		border-radius: 15px;
+		width: 70%;
+		
+	}
+	
+	.exemplo1 ion-icon{
+		font-size: 40px;
+	}
+	
+	.containerExemplos1 {
+		display:flex;
+		gap: 10px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height:auto;
+		padding: 10px;
+	}
+	
+	.container1 {
+		display:none;
+		background-color: lightcyan;
+		padding:35px;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 70%;
+	}
+	
+	.container2 {
+		background-color: lightcyan;
+		padding:35px;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		flex-direction:column;
+		border: 1px solid black;
+		border-radius: 5px;
+		width: 70%;
+	
+	}
+	
+	.container2 ion-icon{
+		font-size: 40px;
+		color: black;
+	}
+	
+	.container3 {
+		background-color: rgb(127, 162, 211);
+		padding:15px;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		flex-direction:column;
+		border-radius: 5px;
+		border: 1px solid black;
+
+	
+	}
+	
+	.contverde {
+		background-color: rgb(134, 236, 186);
+		padding:15px;
+		display:flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+		flex-direction:row;
+		border-left: 5px solid limegreen;
+		border-radius: 5px;
+		width: 400px;
+		
+	
+	}
+	
+	.contverde p{
+		display: flex;
+		justify-content: flex-start;
+		text-align: justify;
+	
+	}
+	.contverde .material-icons{
+		color: green;
+		
+	}
+	
+	.contred {
+		background-color: rgb(228, 157, 157);
+		padding:15px;
+		display:flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+		width: 400px;
+		flex-direction:row;
+		border-left: 5px solid red;
+		border-radius: 5px;
+	
+	}
+	.contred p{
+		display: flex;
+		justify-content: flex-start;
+		text-align: justify;
+	
+	
+	}
+	.contred .material-icons{
+		color: rgb(198, 3, 3);
+		
+	}
+	
+	.contdica {
+		background-color: lightcyan;
+		padding:15px;
+		display:flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+		width: 400px;
+		flex-direction:row;
+		border-radius: 5px;
+		border-left: 5px solid rgb(233, 198, 1);
+	
+	}
+	.contdica p{
+		display: flex;
+		justify-content: flex-start;
+		text-align: justify;
+	
+	
+	}
+	.contdica .material-icons{
+		color: black;
+	
+		
+	}
+
+	body{
+		overflow-x:hidden;
+	}
+
+	.principal {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+		margin-top: 50px;
+	}
+	.principal img{
+		width: 300px;
+		height: 150px;
+		border: 2px solid black;
+	}
+	.principal p{
+		margin:0px;
+		display:flex;
+		justify-content: center;
+		font-family: 'Rubik', sans-serif;
+		font-size: 19px;
+		text-align: justify;
+		width:70%;
+	}
+	textarea{
+		width:800px;
+	}
+	
+	
+	
 
 
 
