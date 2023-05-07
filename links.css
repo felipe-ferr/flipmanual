@@ -401,13 +401,14 @@ p{
     justify-content: center;
 	flex-direction: column;
 	height: 100%;
-	gap: 10px;
-	top:0;
+	gap: 0px;
 	z-index: 4;
 	position:fixed;
 	border-right: 1px solid navy;
 	border-left: 1px solid navy;
-	overflow:hidden;
+	top:0;
+	left:0;
+	overflow: hidden;
 
 }
 
@@ -417,20 +418,17 @@ p{
     justify-content: center;
 	font-family: 'Cabin', sans-serif;
 	font-size: 15px;
-	width:0%;
+	width:80%;
 	transition-duration: 0.2s;
-	background-color:red;
 	color: black;
 	padding:5px;
 }
 
 .sumariocont{
-	margin-left:90px;
 	display:flex;
 	height: 50px;
 	align-items: center;
 	justify-content:center;
-	background-color:yellow;
 	width: 100%;
 }
 
@@ -447,6 +445,27 @@ h1.titulosumario {
 .quadrado2 {
 	display:flex;
 	background-color: PaleTurquoise;
+}
+
+.quadrado2sumario {
+	display:flex;
+	background-color: PaleTurquoise;
+	height:40px;
+	width: 40px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	transition-duration: 0.3s;
+}
+
+.quadrado2sumario ion-icon{
+	font-size: 50px;
+	color: navy;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.quadrado2sumario ion-icon:hover{
+	transform: scale(1.3);
 }
 
 
