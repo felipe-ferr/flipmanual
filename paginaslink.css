@@ -250,6 +250,12 @@ h1.titulos2 {
 	align-items: center;
 }
 
+.container2 .img1 {
+	width:800px;
+	height:250px;
+	border:2px solid red;
+}
+
 .alerta {
 	display: inline-block;
 	position: relative;
@@ -318,12 +324,14 @@ h1.titulos2 {
 	background-color: lightcyan;
 	padding:35px;
 	display:flex;
+	width:70%;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
 	border: 1px solid black;
 	border-radius: 5px;
 }
+
 
 .container2 {
 	background-color: lightcyan;
@@ -414,7 +422,7 @@ h1.titulos2 {
 	align-items: center;
 	justify-content: space-between;
 	gap: 10px;
-	width: 400px;
+	width: 800px;
 	flex-direction:row;
 	border-radius: 5px;
 	border-left: 5px solid rgb(233, 198, 1);
@@ -432,6 +440,7 @@ h1.titulos2 {
 
 	
 }
+
 
 
 
@@ -561,7 +570,7 @@ h1.titulos2 {
 	}
 	
 	.container3 {
-		background-color: rgb(127, 162, 211);
+		background-color: lightcyan;
 		padding:15px;
 		display:flex;
 		align-items: center;
@@ -569,7 +578,7 @@ h1.titulos2 {
 		gap: 10px;
 		flex-direction:column;
 		border-radius: 5px;
-		border: 1px solid black;
+		border:none;
 		width:50%;
 
 	
@@ -633,7 +642,7 @@ h1.titulos2 {
 		align-items: center;
 		justify-content: space-between;
 		gap: 10px;
-		width: 200px;
+		width: 350px;
 		flex-direction:row;
 		border-radius: 5px;
 		border-left: 5px solid rgb(233, 198, 1);
@@ -669,6 +678,7 @@ h1.titulos2 {
 		height: 150px;
 		border: 2px solid black;
 	}
+	
 	.principal p{
 		margin:0px;
 		display:flex;
@@ -686,6 +696,20 @@ h1.titulos2 {
 		background: PaleTurquoise;
 		color:black;
 		font-size: 15px;
+	}
+
+	h1.titulos {
+		display:flex;
+		justify-content: center;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 30px;
+		margin:0px;
+		color:black;
+	}
+	.container2 .img1 {
+		width:380px;
+		height:200px;
+		border:2px solid red;
 	}
 }	
 	
