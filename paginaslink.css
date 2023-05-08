@@ -507,6 +507,7 @@ h1.titulos2 {
 		flex:0%;
 		z-index: 1;
 	}
+	
 	.exemplo1 {
 		padding: 10px;
 		background: PaleTurquoise;
@@ -712,6 +713,8 @@ h1.titulos2 {
 		border:2px solid red;
 	}
 }	
+
+
 	
 	
 
