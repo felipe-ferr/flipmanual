@@ -1,6 +1,5 @@
 body {
 	margin: 0px;
-	background-color: F9FFFF;
 
 }
 a{
@@ -229,9 +228,11 @@ a{
 }
 
 .containerLink {
-	background-color: rgba(127, 255, 212, 0.644);
+	margin-top:100px;
+	display:flex;
 	box-sizing: border-box;
     padding: 30px;
+	gap:15px;
 	border-radius: 20px;
 }
 
@@ -239,7 +240,6 @@ a{
 .linkContainer {
 	display: flex;
 	width: 80%;
-	background-color: Azure;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
@@ -262,7 +262,7 @@ a{
 	font-size: 20px;
 	transition-duration: 0.4s;
 	padding: 10px;
-	width: 150px;
+	width: 100px;
 	margin-bottom: 15px;
 }
 
@@ -284,13 +284,17 @@ a{
 
 .linksPrincipal {
 	display:flex;
+	background-color: DEF6FC;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: row;
 	height: auto;
-	gap: 50px;
+	gap:25px;
+	padding:25px;
+	box-shadow: 5px 5px 5px -4px rgba(36,31,31,0.75);
+	
 	
 }
 .linksPrincipal a{
@@ -307,8 +311,10 @@ a{
 	align-items: center;
 	justify-content: center;
 	border: 4px solid PowderBlue;
-	width: 200px;
+	width: 150px;
 	transition-duration: 0.4s;
+	box-shadow: 0px 1px 5px 1px rgba(36,31,31,0.75);
+
 }
 
 .linksPrincipal a:hover{
@@ -342,7 +348,10 @@ a{
 	flex-wrap: wrap;
 	flex-direction: row;
 	height: auto;
-	gap: 50px;
+	gap: 25px;
+	padding:25px;
+	box-shadow: 5px 5px 5px -4px rgba(36,31,31,0.75);
+	background-color: DEF6FC;
 	
 }
 .linksSites img{
@@ -368,6 +377,7 @@ a{
 	border: 4px solid DarkRed;
 	width: 350px;
 	transition-duration: 0.4s;
+	box-shadow: 5px 5px 5px -4px rgba(36,31,31,0.75);
 }
 .petchoppfundo:hover{
 	transform: scale(1.05);
@@ -389,6 +399,7 @@ a{
 	border: 4px solid Purple;
 	width: 350px;
 	transition-duration: 0.4s;
+	box-shadow: 5px 5px 5px -4px rgba(36,31,31,0.75);
 }
 .smartflipfundo:hover{
 	transform: scale(1.05);
@@ -411,7 +422,7 @@ a{
 	align-items: center;
 	flex-direction: column;
 	height: auto;
-	width: 350px;
+	width: 100%;
 	overflow:hidden;
 	border: 4px solid PowderBlue;
 }
@@ -473,6 +484,11 @@ h1.titulosumario {
 	transition-duration: 0.2s;
 	color: black;
 	text-align: center;
+}
+
+::selection{
+	background-color:SteelBlue;
+	color:lightcyan;
 }
 
 .footer {
