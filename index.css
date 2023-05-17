@@ -7,26 +7,7 @@ a{
 	text-decoration: none;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
 
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: MediumTurquoise; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: SteelBlue; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: MidnightBlue; 
-}
 
 .navbar {
 	display:flex;
@@ -383,6 +364,15 @@ a{
 	justify-content: center;
 	font-family: 'Cabin', sans-serif;
 	font-size: 50px;
+	margin:0px;
+	color:black;
+}
+.linksSites p {
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
 	margin:0px;
 	color:black;
 }
